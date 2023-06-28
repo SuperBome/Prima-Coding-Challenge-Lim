@@ -1,0 +1,84 @@
+body
+{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+.container
+{
+    width: 55%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    padding: 5%;
+}
+
+header
+{
+    width:95%;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+}
+
+header > h2
+{
+    margin: 1%;
+    color: lime;
+}
+
+header > div
+{
+    background-color: lime;
+    padding: 1%;
+}
+
+div > button
+{
+    padding: 0.4%;
+    border-radius: 3px;
+}
+
+div > button:hover
+{
+    background-color: lightgray;
+}
+
+main
+{
+    width:95%;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+}
+
+.Monopattino
+{
+    font-size: 140%;
+}
+
+#carica1
+{
+    width: 35%;
+    height: 40px;
+    background-color: rgb(253, 190, 74);
+    border-radius: 7px;
+}
+
+#carica2
+{
+    width: 55%;
+    height: 40px;
+    background-color: rgb(52, 169, 9);
+    border-radius: 7px;
+}
+
+#carica3
+{
+    width: 15%;
+    height: 40px;
+    background-color: rgb(226, 89, 65);
+    border-radius: 7px;
+}
